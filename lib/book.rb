@@ -7,7 +7,10 @@ class Book
     @title
   end
   
-  instance.property = "something"
+  def author=(author)
+    @author = author
+  end
 end
 
 Book.new("And Then There Were None")
+instance.property = "something"
