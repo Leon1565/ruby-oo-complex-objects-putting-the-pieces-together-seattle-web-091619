@@ -12,5 +12,5 @@ class Shoe
 end
 
 shoe = Shoe.new("Jordans")
-
+shoe.cobble
 
