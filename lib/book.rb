@@ -6,6 +6,8 @@ class Book
   def title
     @title
   end
+  
+  instance.property = "something"
 end
 
 Book.new("And Then There Were None")
