@@ -13,5 +13,6 @@ end
 
 Shoe.new("Nikes")
 shoe = Shoe.new("Jordans")
+shoe.condition = "old"
 shoe.cobble
 
